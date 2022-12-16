@@ -125,7 +125,7 @@ namespace AliacFuzzyLogic
         private void button1_Click(object sender, EventArgs e)
         {
             myspeed.InputValue=(Convert.ToDouble(textBox1.Text));
-            myspeed.Fuzzify("SLOW");
+            myspeed.Fuzzify("MEDIUM");
             
             
             
